@@ -297,7 +297,7 @@ body:not(.user-is-tabbing) a:focus {
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
         url('./images/header.jpg');
-    height: 50vh;
+    height: 40vh;
     background-size: cover;
     background-position: left;
     background-attachment: fixed;
