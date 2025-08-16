@@ -297,16 +297,16 @@ body:not(.user-is-tabbing) a:focus {
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
         url('./images/header.jpg');
-    height: 100vh;
+    height: 50vh;
     background-size: cover;
-    background-position: center;
+    background-position: left;
     background-attachment: fixed;
     font-size: var(--font-size-normal);
 }
 
 .header__text {
     position: absolute;
-    top: 50%;
+    top: 30%;
     transform: translateY(-50%);
 }
 
@@ -317,9 +317,10 @@ body:not(.user-is-tabbing) a:focus {
     font-size: var(--font-size-medium);
 }
 
+
 @media(max-width: 500px) {
     .header {
-        text-align: center;
+        text-align: left;
     }
 
     .header__text p {
